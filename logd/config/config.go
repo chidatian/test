@@ -1,7 +1,7 @@
 package config
 
 import (
-	"fmt"
+	// "fmt"
 	"os"
 	"log"
 	"bufio"
@@ -10,7 +10,14 @@ import (
 
 type Config struct {
 	Filename string
-	Context map[string]string
+	context map[string]string
+}
+
+func (this *Config) Get(k string) string {
+	if _, ok := this.context[k]; ok {
+		return this.context[k]
+	}
+	return ""
 }
 
 func (this *Config) handler(line []byte) {
@@ -18,13 +25,13 @@ func (this *Config) handler(line []byte) {
 	if len(line) > 1 {
 		if line[0] != '#' {
 			ret := bytes.Split(line, []byte(" "))
-			this.Context[string(bytes.TrimSpace(ret[0]))] = string(bytes.TrimSpace(ret[1]))
+			this.context[string(bytes.TrimSpace(ret[0]))] = string(bytes.TrimSpace(ret[1]))
 		}
 	}
 }
 
-func (this *Config) LoadConfig() {
-	this.Context = make(map[string]string, 3)
+func (this *Config) InitConfig() {
+	this.context = make(map[string]string, 3)
 	file, err := os.Open(this.Filename)
 	if err != nil {
 		log.Println(err)
@@ -47,10 +54,9 @@ func (this *Config) LoadConfig() {
 	}
 }
 
-func Run() {
+func Load(file string) *Config {
 	c := new(Config)
-	c.Filename = "./logd.conf"
-	c.LoadConfig()
-	fmt.Println(c.Context["position"])
-	fmt.Println("---")
+	c.Filename = file
+	c.InitConfig()
+	return c
 }
