@@ -27,6 +27,9 @@ func (this *logd) ListenMsgChan() {
 		select {
 		case item := <- this.MsgChan : 
 			fmt.Println(string(item.Src))
+			go func() {
+				
+			}
 		}
 	}
 }
@@ -42,6 +45,9 @@ func main() {
 	tail.Filename = conf.Get("path")
 	b := tail.OpenFile()
 	var n, p int64 = 0, cache.Position()
+	if tail.FileInfo.Size() < p {
+		p = tail.FileInfo.Size()
+	}
 	if b {
 		for {
 			if tail.IsModTime() {
