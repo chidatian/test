@@ -1,40 +1,7 @@
-this is a log log test---------------0
-asdf0
-this is a log log test---------------1
-asdf1
-this is a log log test---------------2
-asdf2
-this is a log log test---------------3
-asdf3
-this is a log log test---------------4
-asdf4
-this is a log log test---------------5
-asdf5
-this is a log log test---------------6
-asdf6
-this is a log log test---------------7
-asdf7
-this is a log log test---------------8
-asdf8
-this is a log log test---------------9
-asdf9
-this is a log log test---------------0
-asdf0
-this is a log log test---------------1
-asdf1
-this is a log log test---------------2
-asdf2
-this is a log log test---------------3
-asdf3
-this is a log log test---------------4
-asdf4
-this is a log log test---------------5
-asdf5
-this is a log log test---------------6
-asdf6
-this is a log log test---------------7
-asdf7
-this is a log log test---------------8
-asdf8
-this is a log log test---------------9
-asdf9
+2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"
+2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"\n2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"\n2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"
+2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"
+2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"
+2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"
+2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"
+2020/03/22 12:37:41 [error] 131328#131400: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '?' in E:\www\you\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php on line 500" while reading response header from upstream, client: 127.0.0.1, server: local.you.com, request: "GET /test/vendor/chidatian HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "local.you.com"

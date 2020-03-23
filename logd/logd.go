@@ -6,6 +6,7 @@ import (
 	"time"
 	"logd/tailf"
 	"logd/config"
+	"regexp"
 )
 
 type logd struct {
@@ -14,6 +15,10 @@ type logd struct {
 
 type Message struct {
 	Src []byte
+	Ip []byte
+	Datetime []byte
+	Server []byte
+	Request []byte
 }
 
 func New() *logd {
@@ -26,10 +31,12 @@ func (this *logd) ListenMsgChan() {
 	for {
 		select {
 		case item := <- this.MsgChan : 
-			fmt.Println(string(item.Src))
-			go func() {
-				
-			}
+			go func(m *Message) {
+				exp := regexp.MustCompile("([0-9]{4}/[0-9]{2}/[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2})|(client: [0-9]{1,3}[.][0-9]{1,3}[.][0-9]{1,3}[.][0-9]{1,3})|(server: [^,]*)|(request: \"{1}[^\"]*\"{1})")
+				ret := exp.FindAll(m.Src, 4)
+				m.Datetime, m.Ip, m.Server, m.Request = ret[0],ret[1],ret[2],ret[3]
+				fmt.Printf("%s---%s---%s---%s\n",string(m.Ip[8:]),string(m.Datetime),string(m.Server),string(m.Request))
+			}(item)
 		}
 	}
 }
